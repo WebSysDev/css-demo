@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+</head>
+<body>
+    <header>
+        <div class="pageName">Home</div>
+        <img src="images/logo.svg" alt="Logo" class="circleLogo">
+        <a href="." class="logo">
+            <div>ITMarkets</div>
+            <div>TRY & BUY</div>
+        </a>
+        <img src="images/menu.svg" alt="Menu" class="menuButton">
+    </header>
+    <nav class="hide">
+        <img src="images/close.svg" alt="Close menu" class="menuButton">
+        <div class="pageName">Navigation</div>
+        <ul>
+            <li>
+                <a class="active" href=".">Home</a>
+            </li>
+            <li>
+                <a href="#">Features</a>
+            </li>
+            <li>
+                <a href="#">Showcase</a>
+            </li>
+            <li>
+                <a href="#">Pricing</a>
+            </li>
+            <li>
+                <a href="#">Testimonials</a>
+            </li>
+            <li>
+                <a href="#">Download</a>
+            </li>
+            <li>
+                <a href="./contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <hr/>
+    <main>
+        <div class="hidePDA">
+            <img src="images/logo.svg" alt="Logo" class="circleLogo">
+            <div>LOGIN</div>
+        </div>
+        <form action="#" method="POST">
+            <label class="opasityCont">
+                <span>
+                    <img src="images/user.svg" alt="Name">
+                </span>
+                <input placeholder="Username" type="text" name="name" pattern=".{3,}" title="Three or more characters" required>
+            </label>
+            <label class="opasityCont">
+                <span>
+                    <img src="images/pass.svg" alt="Password">
+                </span>
+                <input placeholder="Password" type="password" name="password" required>
+            </label>
+            <div class="submitWrapper">
+                <input type="submit" value="LOGIN">
+            </div>
+        </form>
+        <footer>
+            <a href="#">Don't have an Account</a>
+            <a href="#">Sign up</a>
+        </footer>
+    </main>
+    <hr/>
+    <script src="js/index.js"></script>
+</body>
+</html>
